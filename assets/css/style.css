@@ -52,16 +52,11 @@ p{
 .OopsIGrid{
 	background-color: darkorchid;
 	margin-right: 4em;
-
 }
 
 .item{
 	height: 20vw;
 
-}
-.item img:hover{
-	transform: scale(5.0);
-	
 }
 
 
