@@ -8,7 +8,7 @@ body{
 	background-color: lightblue;
 }
 .text-background{
-	font-size: 300px;
+	font-size: 100px;
 	filter: blur(5px);
 	margin-left: 2em;
 	color: white;
@@ -16,7 +16,7 @@ body{
 }
 
 p{
-	font-size: 150px;
+	font-size: 50px;
 	font-weight: bold;
 	color: lightblue;
 	display: inline-block;
@@ -28,7 +28,7 @@ p{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 5em 5em;
+	grid-gap: 3em 3em;
 }
 
 
@@ -56,8 +56,12 @@ p{
 }
 
 .item{
-	height: 600px;
+	height: 20vw;
 
+}
+.item img:hover{
+	transform: scale(5.0);
+	
 }
 
 
