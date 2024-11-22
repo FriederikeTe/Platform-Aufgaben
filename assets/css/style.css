@@ -61,7 +61,7 @@ p{
 }
 .item:hover{
 	height: 40vw;
-	border: 5px solid whitesmoke;
+	border: 5px solid salmon;
 	z-index: 1;
 
 }
