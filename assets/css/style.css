@@ -33,24 +33,23 @@ p{
 
 .CodingPlayground{
 	margin-left: 4em;
-	background-color: lightsalmon;
+	background-color: lightseagreen;
 	grid-row-start: 2;
 }
 
 .PlaySystem{
-	background-color: lightsalmon;
+	background-color: lightseagreen;
 	grid-row-start: 2;
 
 }
 
 .WeirdFlex{
-	background-color: lightsalmon;
+	background-color: lightseagreen;
 	grid-row-start: 2;
 
 }
 .OopsIGrid{
-	background-color: lightsalmon;
-	margin-right: 4em;
+	background-color: lightseagreen;
 	grid-row-start: 2;
 }
 
@@ -61,8 +60,10 @@ p{
 }
 .item:hover{
 	height: 40vw;
-	border: 5px solid salmon;
-	z-index: 1;
+	border: 5px solid seagreen;
+	z-index: 10;
+	position: absolute;
+
 
 }
 
