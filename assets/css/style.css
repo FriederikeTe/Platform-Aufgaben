@@ -53,18 +53,37 @@ p{
 	grid-row-start: 2;
 }
 
+/* Wrapper um jedes Bild */
+.image-wrapper {
+    position: relative;       /* Bezug für Overlay */
+    display: inline-block;    /* damit Grid-Flow bleibt */
+    margin-right: 1em;        /* optional, Abstand zwischen Bildern */
+}
+
+/* Kleine Version */
 .item {
     height: 20vw;
     border: none;
-    z-index: 1;
-    transition: transform 0.3s ease, border 0.3s ease;
-    position: relative;
+    display: block;
 }
 
-.item:hover {
-    transform: scale(1.5); /* oder 2 für mehr Zoom */
+/* Overlay: große Version, zunächst unsichtbar */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40vw;            /* Größe der Vergrößerung */
+    width: auto;
+    display: none;            /* unsichtbar bis Hover */
     border: 5px solid seagreen;
     z-index: 100;
+    pointer-events: none;     /* Overlay blockiert Hover nicht */
+    transition: transform 0.3s ease; /* optional sanft */
+}
+
+/* Hover: Overlay einblenden */
+.image-wrapper:hover .overlay {
+    display: block;
 }
 
 
