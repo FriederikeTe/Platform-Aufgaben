@@ -19,7 +19,7 @@ p{
 	font-weight: bold;
 	color: white;
 	display: inline-block;
-	margin-end: 1em;
+	margin-right: 1em;
 	line-height: 1;
 }
 
@@ -61,7 +61,7 @@ p{
 .item:hover{
 	height: 40vw;
 	border: 5px solid seagreen;
-	z-index: 10;
+	z-index: 100;
 	position: absolute;
 
 
