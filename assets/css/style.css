@@ -53,18 +53,18 @@ p{
 	grid-row-start: 2;
 }
 
-.item{
-	height: 20vw;
-	border: none;
-	z-index: -1;
+.item {
+    height: 20vw;
+    border: none;
+    transition: transform 0.3s ease, border 0.3s ease;
+    position: relative;
+    z-index: 1;
 }
-.item:hover{
-	height: 40vw;
-	border: 5px solid seagreen;
-	z-index: 100;
-	position: absolute;
 
-
+.item:hover {
+    transform: scale(2); /* oder 1.5 statt 2 je nach Geschmack */
+    border: 5px solid seagreen;
+    z-index: 100;
 }
 
 
